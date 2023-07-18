@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 50px !important;
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  padding: 0.6rem 3rem !important;
+  margin: 0rem 0.7rem !important;
+  font-size: 1.4rem !important;
+  border-width: 2.5px !important;
+  border-color: white !important;
+  outline: none !important;
+  cursor: pointer !important;
+}
+
+.agree:hover,
+.btn:hover {
+  color: #ffffff !important;
+  /* border-width: 3px; */
+}
+
+.ui.basic.button, .ui.basic.buttons .button {
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+}

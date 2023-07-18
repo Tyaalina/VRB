@@ -1,0 +1,98 @@
+.menuable_body {
+  margin: 0;
+  font-family: 'Prosto One';
+  background: url("../../../img/Frame2.png") no-repeat ; 
+  min-height: 500px;
+  background-size: cover;
+  background-color: #002422;
+  min-width: 630px;
+  min-height: 500px;
+}
+/* .menu__row {
+  position: relative;
+} */
+.menu__auth_panel {
+  position: absolute;
+  top: 15px;
+  right:65px;
+}
+.lang_dropdown {
+  position: absolute;
+  top: 15px;
+}
+.lang__btn {
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  text-align: right;
+  position: absolute;
+  right:150px;
+  top:10px;
+}
+ul.header li a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #D9FFD1;
+  cursor: pointer;
+}
+ul.header li a:hover {
+  color: #ffFFff;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.tologin__btn {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 5px;
+  right: -40px;
+}
+
+@media (max-width: 848px) {
+
+  ul.header li a {
+    padding: 20px 15px 20px 15px;
+    font-size:18px;
+  }
+  .menu__row {
+    right: 0px;
+  }
+  .tologin__btn {
+    top: 27px;
+    right: 10px;
+  }
+  ul.header {
+    top: 5%;
+    right:120px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  ul.header li a {
+    padding: 20px 15px 20px 15px !important;
+    font-size:18px;
+  }
+  .menu__row {
+    right: 0px;
+  }
+  .tologin__btn {
+    top: 27px;
+    right: -130px;
+  }
+  ul.header {
+    top: 5%;
+    left:10px;
+  }
+}
+

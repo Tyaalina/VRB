@@ -1,0 +1,25 @@
+.profileHeader .headerProfileComponent {
+  background: none;
+}
+
+.profileHeader .headerLogOutComponent{
+  background: none;
+}
+
+.profileHeader {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#profile,
+#logout {
+  fill: rgb(255, 255, 255);
+  stroke: rgb(255, 255, 255);
+  transition: 0.4s ease-out all;
+}
+#profile:hover,
+#logout:hover {
+  fill: var(--secondary-color);
+  stroke: var(--secondary-color);
+}

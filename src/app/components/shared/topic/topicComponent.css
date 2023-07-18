@@ -1,0 +1,72 @@
+
+.topicComponent {
+  width: 19rem;
+  height: 19rem;
+  float: left;
+  background-color: var(--primary-color);
+  margin: 2.5rem 5rem 2.5rem 5rem;
+}
+
+.topicIconComponent {
+  width: 19rem;
+  height: 8.8rem;
+  background-color: var(--primary-color);
+  overflow:hidden;
+}
+
+.topicImage {
+  max-width:100%;
+  max-height:auto;
+}
+
+.topicTitleComponent {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  overflow:hidden;
+}
+
+.topicDescriptionComponent {
+  width: 18rem;
+  height: 3.9rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow:hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.topicComponentButton {
+  width: 100%;
+  height: 3.1rem;
+  background-color: #1c4342;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  outline: none;
+  opacity: 40%;
+}
+
+.topicComponentButton:hover {
+  color: #f3ffda;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #4a7978;
+}
+
+.descriptionModal {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.buttonModal {
+  font-size: 1.6rem;
+}

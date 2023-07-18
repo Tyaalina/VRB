@@ -1,0 +1,17 @@
+.emailConfirmationPage {
+  width: 50rem;
+  padding: 0px 0px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.emailConfirmationPage .pushButtons {
+  margin-top: 3rem;
+}
+.emailConfirmationPage h2 {
+  margin-right: -10rem;
+  margin-left: -10rem;
+  text-align: center;
+  padding-bottom: 76px;
+}

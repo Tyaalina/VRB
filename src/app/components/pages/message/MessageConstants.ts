@@ -1,0 +1,3 @@
+export const MESSAGE = 'MESSAGE';
+export const MESSAGE__SET_FORM_ERROR = 'MESSAGE__SET_FORM_ERROR'
+export const SET_MESSAGE= 'SET_MESSAGE'

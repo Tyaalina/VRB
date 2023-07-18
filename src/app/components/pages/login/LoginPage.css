@@ -1,0 +1,40 @@
+label {
+}
+
+Header {
+    margin-top: 20px;
+}
+
+.loginBody {
+    margin-top: 40px;
+}
+
+#LoginHeader{
+    color: #ADFF00;
+    font-size: 54px;
+    line-height: 67px;
+    font-weight: 400;
+    font-family: 'Prosto One';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginText {
+    color: #ADFF00;
+    opacity: 0.37;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Prosto One';
+    margin-bottom: 1px;
+    margin-right: 15px;
+}
+
+#emailInput, #passwordInput{
+    color: #E9FFE1;
+    font-weight: 100;
+}
+
+#passwordInput{
+    border: #282c34;
+}

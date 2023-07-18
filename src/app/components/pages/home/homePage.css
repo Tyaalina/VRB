@@ -1,0 +1,54 @@
+.home__maintext {
+    font-size: 140px;
+    color: #E9FFE1;
+    position: absolute;
+    top: 20rem;
+    left: 5%;
+}
+
+.home__maintext--point {
+    color: var(--secondary-color);
+}
+
+.home__motivatetext {
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    width: 50rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #E9FFE1;
+    position: absolute;
+    top: 30rem;
+    left: 60%;
+    opacity: 0.75;
+}
+
+.tosignup__btn, .tosubTopic__btn {
+    position: absolute !important;
+    text-align: center !important;
+    left: 72% !important;
+}
+
+.tosignup__btn {
+    top: 60rem !important;
+}
+
+.tosubTopic__btn {
+    top: 63rem !important;
+}
+
+@media (max-width: 80rem) {
+    .home__motivatetext {
+        max-width: 634px;
+        text-align: center;
+        font-size: 23px;
+        color: #E9FFE1;
+        position: absolute;
+        top: 370px;
+        left: 50%;
+    }
+    .tosignup__btn {    
+        left: 65%;
+        top: 55rem;
+    }
+}

@@ -1,0 +1,25 @@
+.registrationPage {
+  width: 50rem;
+  padding: 0px 0px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text {
+  margin-bottom: 1rem;
+}
+
+.text p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.checkBox {
+  text-align: left;
+  padding: 5px 70px;
+  color: white;
+  margin-bottom: 12px;
+}
